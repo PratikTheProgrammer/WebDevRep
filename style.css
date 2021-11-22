@@ -1,0 +1,62 @@
+/* reset css */
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* main CSS */
+h1{
+    font-size: 2.4rem;
+    color: teal;
+    text-decoration: underline;
+}
+
+#searchEng{
+    border: 1px solid rgb(224, 13, 161);
+    border-radius: 8px;
+    padding: 4px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: purple;
+}
+
+#btn{
+    border: 1px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+    background: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 35px;
+    height: 35px;
+}
+
+#btn:hover{
+    background-color: red;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border: 2px solid darkslategray;
+}
+
+#btn:active{
+    background-color: black;
+    color: #ffffff;
+    border: 2px solid red;
+}
